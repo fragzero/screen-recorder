@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Screen Recorder</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="index.css" />
+  <script defer src="render.js"></script>
+</head>
+
+<body class="content">
+  <div class="box">
+    <h1>
+      <span class="icon is-large has-text-danger">
+        <i class="fas fa-video"></i>
+      </span>
+      Screen Recorder
+    </h1>
+
+    <video></video>
+
+    <button id="startBtn" class="button is-success">
+      <span class="icon is-large">
+        <i class="fas fa-play"></i>
+      </span>
+      <span>Iniciar</span>
+    </button>
+
+    <button id="stopBtn" class="button is-danger">
+      <span class="icon is-large">
+        <i class="fas fa-stop"></i>
+      </span>
+      <span>Parar</span>
+    </button>
+    <hr />
+    <button id="videoSelectBtn" class="button is-black">
+      <span class="icon is-large">
+        <i class="fas fa-desktop"></i>
+      </span>
+      <span>Selecione a janela para gravar</span>
+    </button>
+
+    <br /><br />
+
+    <form action="http://github.fragzero.com.br" method="get" target="_blank">
+      <button class="button is-small">
+        <span class="icon is-small">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>GitHub</span>
+      </button>
+    </form>
+
+  </div>
+
+</body>
+
+</html>
