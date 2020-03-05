@@ -1,6 +1,6 @@
 # Screen Recorder
 
-Electron App example to record screen and save in .webm video
+Electron App example to record screen and save in .webm video file
 
 ## git clone
 `git clone https://github.com/fragzero/screen-recorder`
